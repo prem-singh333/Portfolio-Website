@@ -15,24 +15,13 @@ hamburger.addEventListener("click",() => {
 
     if(sidebar.classList.contains("sidebargo")){
 
-       
-        setTimeout(() => {
-            menu.style.display = "inline";
-        },200);
-
-        setTimeout(() => {
-            cross.style.display = "none";
-        },190);
+        menu.style.display = "inline";
+        cross.style.display = "none";
 
     }else{
-
-        setTimeout(() => {
-            menu.style.display = "none";
-        },295);
-
-        setTimeout(() => {
-            cross.style.display = "inline";
-        },300);
+        
+        menu.style.display = "none";
+        cross.style.display = "inline";
     }
 
 });
