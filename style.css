@@ -53,7 +53,7 @@ img.logo{
 
 .sidebar{
     display: flex;
-    gap: 60px;
+    gap: 50px;
 }
 
 .links{
@@ -118,7 +118,7 @@ img.logo{
 
 /*================Use media query==============*/
 
-@media (max-width: 890px){
+@media (max-width: 810px){
 
     .hamburger{
         display: block;
@@ -133,6 +133,7 @@ img.logo{
         gap: 45px;
         background-color: rgba(242, 241, 240, 0.5);
         backdrop-filter: blur(2.4px);
+        box-shadow: 25px -10px 50px #000000;
         height: 100vh;
         width: 170px;
         transition: transform 0.3s ease-in;
@@ -196,6 +197,100 @@ img.logo{
 
 /*================Main Content-Section===============*/
 
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    height: 80vh;
+    width: 95vw;
+    background-color: salmon;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.profile{
+    width: 40vw;
+    background-color: yellow;
+}
+
+.intro{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+
+}
+
+.n1{
+    margin-top: 2px; 
+}
+
+.n2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.paragraph{
+    padding: 10px 0 10px 10px;
+}
+
+.autotype{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+.first-text{
+    margin-top: 2px;
+}
+
+.sec-text{
+    margin-left: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.profile-picture{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    border: 3px solid #000000;
+}
+
+.shadow{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-image: url(prem-image.png.jpg);
+    background-size: cover;
+    top: -5px;
+    left: -5px;
+    /* position: relative; */
+}
 
 /* *{
     margin: 0;
