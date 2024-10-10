@@ -267,30 +267,37 @@ img.logo{
 }
 
 .btn{
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 120px;
     border-radius: 10px;
     border: none;
     margin: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: aqua;
+    color: #ffffff;
+}
+
+.btn:hover{
+    border: 2px solid aqua;
+    background-color: #ffffff;
+    color: aqua;
+    cursor: pointer;
+}
+
+.image{
+    height: 250px;
+    width: 200px;
+    box-shadow: 10px 10px 15px #000000;
 }
 
 .profile-picture{
-    position: absolute;
-    height: 250px;
-    width: 200px;
-    border: 3px solid #000000;
-}
-
-.shadow{
-    position: relative;
     height: 250px;
     width: 200px;
     background-image: url(prem-image.png.jpg);
     background-size: cover;
-    top: -5px;
-    left: -5px;
-    /* position: relative; */
 }
+
 
 /* *{
     margin: 0;
