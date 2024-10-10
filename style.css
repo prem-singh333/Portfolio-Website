@@ -34,15 +34,32 @@ html,body{
     width: 100%;
 }
 
+.logo-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
 .sidebar{
     display: flex;
-    gap: 70px;
+    gap: 60px;
 }
 
 .links{
     font-size: 1.2rem;
     font-weight: 600;
-    color: #000000;
+    color: #000;
 }
 
 .hamburger{
@@ -50,7 +67,59 @@ html,body{
     z-index: 1;
 }
 
-/* @media (max-width: 811px){
+/*=================Nav-Decoration=================*/
+
+#home{
+    height: 40px;
+    width: 70px;
+    display: grid;
+    place-items: center;
+}
+
+#about{
+    height: 40px;
+    width: 70px;
+    display: grid;
+    place-items: center;
+}
+
+#project{
+    height: 40px;
+    width: 90px;
+    display: grid;
+    place-items: center;
+}
+
+#skills{
+    height: 40px;
+    width: 70px;
+    display: grid;
+    place-items: center;
+}
+
+#contact{
+    height: 40px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+}
+
+.links{
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*================Hover-effects===============*/
+
+.links:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*================Use media query==============*/
+
+@media (max-width: 890px){
+
     .hamburger{
         display: block;
     }
@@ -60,54 +129,64 @@ html,body{
         top: 0;
         right: 0;
         flex-direction: column;
-        padding: 65px 40px 0 60px;
+        padding: 65px 15px 0 15px;
         gap: 45px;
         background-color: rgba(242, 241, 240, 0.5);
         backdrop-filter: blur(2.4px);
         height: 100vh;
-    }
-} */
-
-@media (max-width: 810px){
-
-    .hamburger{
-        display: block;
-    }
-
-    .sidebar{
-        position: absolute;
-        top: 0;
-        right: 0;
-        flex-direction: column;
-        padding: 65px 40px 0 60px;
-        gap: 45px;
-        background-color: rgba(242, 241, 240, 0.5);
-        backdrop-filter: blur(2.4px);
-        height: 100vh;
+        width: 170px;
         transition: transform 0.3s ease-in;
     }
 
     .sidebargo{
         transform: translate(220px, 0px);
     }
+
+    #home{
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #about{
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #project{
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #skills{
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    #contact{
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 @media (max-width: 420px){
 
-    .sidebar{
-        position: absolute;
-        top: 0;
-        right: 0;
-        flex-direction: column;
-        padding: 65px 40px 0 60px;
-        gap: 45px;
-        background-color: rgba(242, 241, 240, 0.5);
-        backdrop-filter: blur(2.4px);
-        height: 100vh;
-    }
-
-    .logo{
-        font-size: 1.2rem;
+    .logoo{
+        font-size: 1rem;
     }
 
     .links{
